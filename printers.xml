@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Thu Nov  1 17:41:19 2018 as: nmap -p 9100,515,631 -oX printers.xml 172.16.40.1/24 -->
+<nmaprun scanner="nmap" args="nmap -p 9100,515,631 -oX printers.xml 172.16.40.1/24" start="1541083279" startstr="Thu Nov  1 17:41:19 2018" version="7.60" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="3" services="515,631,9100"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.2" addrtype="ipv4"/>
+<hostnames>
+<hostname name="sip-t21p_e2.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="1017" rttvar="2602" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.3" addrtype="ipv4"/>
+<hostnames>
+<hostname name="sg300524floor1.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="8752" rttvar="8161" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.4" addrtype="ipv4"/>
+<hostnames>
+<hostname name="sg300524floor2.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="8731" rttvar="8145" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.5" addrtype="ipv4"/>
+<hostnames>
+<hostname name="zaglyadin-g.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="464" rttvar="2328" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.6" addrtype="ipv4"/>
+<hostnames>
+<hostname name="shiryaev-a.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="446" rttvar="2311" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083283"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.10" addrtype="ipv4"/>
+<hostnames>
+<hostname name="lutsky.i-610-ip" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="72954" rttvar="72954" to="364770"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.11" addrtype="ipv4"/>
+<hostnames>
+<hostname name="smirnov-a.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="1583" rttvar="2497" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.13" addrtype="ipv4"/>
+<hostnames>
+<hostname name="sip-t21p_e2.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="743" rttvar="2392" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.14" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="327" rttvar="2220" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.16" addrtype="ipv4"/>
+<hostnames>
+<hostname name="komkov-v.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="1665" rttvar="2837" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.17" addrtype="ipv4"/>
+<hostnames>
+<hostname name="fokin-u.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="887" rttvar="2634" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.18" addrtype="ipv4"/>
+<hostnames>
+<hostname name="xrx9c934e23bde6.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="2581" rttvar="2757" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.19" addrtype="ipv4"/>
+<hostnames>
+<hostname name="npif65cfb.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="482" rttvar="2250" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.20" addrtype="ipv4"/>
+<hostnames>
+<hostname name="nikiforov-m.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="649" rttvar="2345" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083283"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.23" addrtype="ipv4"/>
+<hostnames>
+<hostname name="a510-ip.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="22093" rttvar="24961" to="121937"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.25" addrtype="ipv4"/>
+<hostnames>
+<hostname name="postnikov-r.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="1828" rttvar="3016" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.26" addrtype="ipv4"/>
+<hostnames>
+<hostname name="km97e7bb.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="498" rttvar="2322" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.28" addrtype="ipv4"/>
+<hostnames>
+<hostname name="sip-t21p_e2.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="782" rttvar="2464" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.29" addrtype="ipv4"/>
+<hostnames>
+<hostname name="petrenko-a.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="264" rttvar="2273" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="intercom_cpis_support.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="1231" rttvar="2697" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.32" addrtype="ipv4"/>
+<hostnames>
+<hostname name="intercom_cpis_plis.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="1129" rttvar="2638" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.33" addrtype="ipv4"/>
+<hostnames>
+<hostname name="intercom_cpis_verifications_ip.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="1222" rttvar="2633" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.34" addrtype="ipv4"/>
+<hostnames>
+<hostname name="alekseeva-e.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="1170" rttvar="2515" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.35" addrtype="ipv4"/>
+<hostnames>
+<hostname name="perehodchenko-i.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="1231" rttvar="2647" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.36" addrtype="ipv4"/>
+<hostnames>
+<hostname name="gureev-v2.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="364" rttvar="2257" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.37" addrtype="ipv4"/>
+<hostnames>
+<hostname name="bobkov-p.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="682" rttvar="2390" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.38" addrtype="ipv4"/>
+<hostnames>
+<hostname name="sip-t21p_e2.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="867" rttvar="2534" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.39" addrtype="ipv4"/>
+<hostnames>
+<hostname name="gilmiahmetov-d.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="791" rttvar="2434" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.40" addrtype="ipv4"/>
+<hostnames>
+<hostname name="komarkov-v.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="419" rttvar="2233" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.41" addrtype="ipv4"/>
+<hostnames>
+<hostname name="perekhodchenko.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="450" rttvar="2293" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="172.16.40.42" addrtype="ipv4"/>
+<hostnames>
+<hostname name="sip-t21p_e2.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="892" rttvar="2546" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083281"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.44" addrtype="ipv4"/>
+<hostnames>
+<hostname name="lampadov-i.milandr01.local" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="2200" rttvar="3049" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083283"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.252" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="721" rttvar="5000" to="100000"/>
+</host>
+<host starttime="1541083280" endtime="1541083283"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="172.16.40.253" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="printer" method="table" conf="3"/></port>
+<port protocol="tcp" portid="631"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ipp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="9100"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="jetdirect" method="table" conf="3"/></port>
+</ports>
+<times srtt="359" rttvar="3755" to="100000"/>
+</host>
+<runstats><finished time="1541083283" timestr="Thu Nov  1 17:41:23 2018" elapsed="3.70" summary="Nmap done at Thu Nov  1 17:41:23 2018; 256 IP addresses (34 hosts up) scanned in 3.70 seconds" exit="success"/><hosts up="34" down="222" total="256"/>
+</runstats>
+</nmaprun>
